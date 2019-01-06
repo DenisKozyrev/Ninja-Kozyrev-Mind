@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Ninja-Kozyrev Mind</title>
+
+</head>
+<script>
+    const loadingImage = new Image();
+    loadingImage.src = './assets/images/loadingSprite.png';
+    window.onload = function () {
+        document.getElementById('loadingSpriteBlock').style.display = "none";
+    };
+</script>
+</head>
+
+<body>
+    <div id="loadingSpriteBlock" class="landing-loading-page">
+        <div class="landing-loading-sprite loading-animation"></div>
+    </div>
+    <div id="contentWrapper" class="landing-content-wrapper">
+        <header>
+            <a class="home-anchor" name="home-anchor">home</a>
+            <nav class="game-navigation">
+                <a href="#home-anchor" class="navigation-link">Home</a>
+                <a href="#screenshots-anchor" class="navigation-link">Screenshots</a>
+                <a href="#author-anchor" class="navigation-link">Author</a>
+                <a href="./game.html" class="navigation-link" target="_blank">Play</a>
+            </nav>
+            <h2 class="landing-game-heading">Ninja-Kozyrev Mind</h2>
+            <p class="about-game-text">"This game about cool Ninja who tries to solve all tasks and defeat all his enemies."</p>
+        </header>
+        <section class="screenshots-section">
+            <a name="screenshots-anchor"></a>
+            <h3 class="game-screenshot-heading">Game Screenshots</h2>
+                <div class="game-screenshots">
+                    <img class="game-screenshot" src="./assets/img/game-screenshot1.png">
+                    <img class="game-screenshot" src="./assets/img/game-screenshot2.png">
+                    <img class="game-screenshot" src="./assets/img/game-screenshot3.png">
+                    <img class="game-screenshot" src="./assets/img/game-screenshot4.png">
+                    <img class="game-screenshot" src="./assets/img/game-screenshot5.png">
+                    <img class="game-screenshot" src="./assets/img/game-screenshot6.png">
+                </div>
+        </section>
+        <section class="about-section">
+            <a name="author-anchor"></a>
+            <h3 class="author-heading">Created by Denis Kozyrev</h3>
+            <div class="author-foto"></div>
+            <p class="about-author-text">
+                Skype: bugninkas1
+                <br>Mail: deniskozyrev55@gmail.com
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>

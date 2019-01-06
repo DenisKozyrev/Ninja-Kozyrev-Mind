@@ -1,0 +1,34 @@
+.game-score-table-block {
+    width: 95%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(75, 30, 158, 0.7);
+}
+
+.game-score-table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.score-table-heading {
+    color: #ffd890;
+    font-family: Montresor;
+    user-select: none;
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+.table,
+th,
+td {
+    border: 2px solid #fed98f;
+    border-collapse: collapse;
+    padding: 1%;
+    font-size: 25px;
+    color: #fed98f;
+    font-family: Montresor;
+    letter-spacing: 1px;
+}

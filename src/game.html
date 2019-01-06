@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ninja-Kozyrev Mind</title>
+</head>
+
+<body>
+  <!-- =============================================================== -->
+  <!-- Begin: view for loading page component -->
+  <!-- =============================================================== -->
+  <div id="loadingSpriteBlock" class="loading-page">
+    <div class="loading-sprite loading-animation"></div>
+  </div>
+  <!-- =============================================================== -->
+  <!-- End: view for loading page component -->
+  <!-- =============================================================== -->
+
+
+
+  <div id="contentWrapper" class="content-wrapper">
+    <!-- =============================================================== -->
+    <!-- Begin: view for profile page component -->
+    <!-- =============================================================== -->
+    <div id="playerProfilePage" class="profile-page">
+      <h2 class="game-heading">Ninja-Kozyrev Mind</h2>
+      <div id="checkinBlock" class="checkin-block">
+        <p class="checkin-paragraph">Please enter your information</p>
+        <form id="profileForm">
+          <div class="profile-input-box">
+            <input id="playerFirstName" class="profile-input" name="first" placeholder="First name*" required>
+          </div>
+          <div class="profile-input-box">
+            <input id="playerLastName" class="profile-input" name="last" placeholder="Last name*" required>
+          </div>
+          <button id="startButton" type="submit" class="game-button start-button">Let`s Start</button>
+        </form>
+      </div>
+      <div id="startGameButtonsBlock" class="new-game-buttons-block">
+        <button id="aboutButton" type="button" class="game-button" tabindex="2">About</button>
+        <button type="button" id="newGameButton" class="game-button new-game-button" tabindex="1" autofocus>New Game</button>
+      </div>
+    </div>
+    <!-- =============================================================== -->
+    <!-- End: view for profile page component -->
+    <!-- =============================================================== -->
+
+
+
+    <!-- =============================================================== -->
+    <!-- Begin: view for game component -->
+    <!-- =============================================================== -->
+    <div id="gameFild" class="game-fild">
+      <div class="game-fild-content">
+        <div class="character-info-block">
+          <div class="character-info">
+            <h3 id="playerName" class="character-name"></h3>
+            <p id="playerHealthPoints" class="character-health-points"></p>
+            <div class="player-hp-red-line">
+              <div id="playerHpGreenLine" class="hp-green-line"></div>
+            </div>
+          </div>
+          <div class="rounds">
+            <button class="volume-on" id="musicMuteButton" tabindex="2"></button>
+            <h3 id="roundHeading" class="round-number"></h3>
+            <button id="chooseSpellButton" type="button" class="choose-spell-button" tabindex="1">Choose Your Spell</button>
+          </div>
+          <div class="character-info">
+            <h3 id="monsterName" class="character-name"></h3>
+            <p id="monsterHealthPoints" class="character-health-points"></p>
+            <div class="monster-hp-red-line">
+              <div id="monsterHpGreenLine" class="hp-green-line"></div>
+            </div>
+          </div>
+        </div>
+        <div id=" charactersBlock" class="character-block">
+          <div id="playerBlock" class="character"></div>
+          <div id="monsterBlock" class="character"></div>
+        </div>
+      </div>
+    </div>
+    <!-- =============================================================== -->
+    <!-- End: view for game component -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- Begin: view for spell component -->
+    <!-- =============================================================== -->
+    <div id="spellWindowConteiner" class="spell-window-conteiner">
+      <div id="spellWindow" class="spell-window">
+        <h3 class="spell-heading">Choose Your Spell</h3>
+        <div class="spell-buttons-block">
+          <button id="attackSpell" class="spell-button" type="button">
+            <img id="rageSpellImg" class="spell-img" alt="Rage Spell">
+          </button>
+          <button id="healingSpell" class="spell-button" type="button">
+            <img id="healingSpellImg" class="spell-img" alt="Healing Spell">
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- =============================================================== -->
+    <!-- End: view for spell component -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- Begin: view for task component -->
+    <!-- =============================================================== -->
+    <div id="taskWindowConteiner" class="task-window-conteiner">
+      <div id="taskWindow" class="task-window">
+        <div id="mediaBlock" class="media-block"></div>
+        <h3 id="taskHeading" class="task-heading"></h3>
+        <div id="taskForm" class="task-form">
+          <input type="text" class="task-input" id="taskInput" placeholder="answer*" autocomplete="off">
+          <div class="task-buttons">
+            <button id="taskButton" class="task-button" type="button">Answer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =============================================================== -->
+    <!-- End: view for task component -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- Begin: view for score component -->
+    <!-- =============================================================== -->
+    <div id="tableWindow" class="game-score-table-block">
+      <h3 class="score-table-heading">Game Over</h3>
+      <table id="scoreTable" class="game-score-table"></table>
+      <button id="startAgainButton" type="button" class="game-button again-button">Ones Again!!!</button>
+    </div>
+    <!-- =============================================================== -->
+    <!-- End: view for score component -->
+    <!-- =============================================================== -->
+  </div>
+</body>
+
+</html>

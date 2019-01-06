@@ -1,0 +1,422 @@
+@-webkit-keyframes characterIdle {
+    0.001% {
+        background-position-x: 0px;
+    }
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4400px;
+    }
+    99.999% {
+        background-position-x: -4400px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+@-webkit-keyframes playerAttack {
+    0% {
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+    0.001% {
+        background-position-x: -550px;
+        background-position-y: -75px;
+        left: 3%;
+    }
+    5% {
+        background-position-x: -550px;
+        background-position-y: -75px;
+    }
+    5.001% {
+        background-position-x: -1100px;
+        background-position-y: -75px;
+        left: 6%
+    }
+    10% {
+        background-position-x: -1100px;
+        background-position-y: -75px;
+    }
+    10.001% {
+        background-position-x: -1650px;
+        background-position-y: -75px;
+        left: 9%
+    }
+    15% {
+        background-position-x: -1650px;
+        background-position-y: -75px;
+    }
+    15.001% {
+        background-position-x: -2200px;
+        background-position-y: -75px;
+        left: 12%
+    }
+    20% {
+        background-position-x: -2200px;
+        background-position-y: -75px;
+    }
+    20.001% {
+        background-position-x: -2750px;
+        background-position-y: -75px;
+        left: 15%
+    }
+    25% {
+        background-position-x: -2750px;
+        background-position-y: -75px;
+    }
+    25.001% {
+        background-position-x: -3300px;
+        background-position-y: -75px;
+        left: 18%
+    }
+    30% {
+        background-position-x: -3300px;
+        background-position-y: -75px;
+    }
+    30.001% {
+        background-position-x: -3850px;
+        background-position-y: -75px;
+        left: 21%
+    }
+    35% {
+        background-position-x: -3850px;
+        background-position-y: -75px;
+    }
+    35.001% {
+        background-position-x: -4400px;
+        background-position-y: -75px;
+        left: 24%
+    }
+    40% {
+        background-position-x: -4400px;
+        background-position-y: -75px;
+    }
+    40.001% {
+        background-position-x: -4950px;
+        background-position-y: -75px;
+        left: 27%
+    }
+    45% {
+        background-position-x: -4950px;
+        background-position-y: -75px;
+    }
+    45.001% {
+        background-position-x: -5500px;
+        background-position-y: 0px;
+        left: 30%
+    }
+    50% {
+        background-position-x: -5500px;
+        background-position-y: 0px;
+    }
+    50.001% {
+        background-position-x: -6050px;
+        background-position-y: 0px;
+        left: 33%
+    }
+    55% {
+        background-position-x: -6050px;
+        background-position-y: 0px;
+    }
+    55.001% {
+        background-position-x: -6600px;
+        background-position-y: 0px;
+        left: 37%
+    }
+    60% {
+        background-position-x: -6600px;
+        background-position-y: 0px;
+    }
+    60.001% {
+        background-position-x: -7150px;
+        background-position-y: 0px;
+        left: 41%
+    }
+    65% {
+        background-position-x: -7150px;
+        background-position-y: 0px;
+    }
+    65.001% {
+        background-position-x: -7700px;
+        background-position-y: 0px;
+        left: 45%
+    }
+    70% {
+        background-position-x: -7700px;
+        background-position-y: 0px;
+    }
+    70.001% {
+        background-position-x: -8250px;
+        background-position-y: 0px;
+        left: 49%
+    }
+    75% {
+        background-position-x: -8250px;
+        background-position-y: 0px;
+    }
+    75.001% {
+        background-position-x: -8800px;
+        background-position-y: 0px;
+        left: 52%
+    }
+    80% {
+        background-position-x: -8800px;
+        background-position-y: 0px;
+    }
+    80.001% {
+        background-position-x: -9350px;
+        background-position-y: 0px;
+        left: 53%
+    }
+    85% {
+        background-position-x: -9350px;
+        background-position-y: 0px;
+    }
+    85.001% {
+        background-position-x: -9900px;
+        background-position-y: 0px;
+        left: 53%
+    }
+    90% {
+        background-position-x: -9900px;
+        background-position-y: 0px;
+    }
+    90.001% {
+        background-position-x: -10450px;
+        background-position-y: 0px;
+    }
+    95% {
+        background-position-x: -10450px;
+        background-position-y: 0px;
+    }
+    95.001% {
+        background-position-x: -10450px;
+        background-position-y: 0px;
+    }
+    99.999% {
+        background-position-x: -10450px;
+        background-position-y: 0px;
+    }
+    100% {
+        background-position-x: -10450px;
+        background-position-y: 0px;
+    }
+}
+
+@-webkit-keyframes characterDead {
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4400px;
+    }
+    99.999% {
+        background-position-x: -4400px;
+    }
+    100% {
+        background-position-x: -4400px;
+    }
+}
+
+@-webkit-keyframes characterHealth {
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4400px;
+    }
+    99.999% {
+        background-position-x: -4400px;
+    }
+    100% {
+        background-position-x: -4400px;
+    }
+}
+
+@-webkit-keyframes playerDamage {
+    0% {
+        background-position-x: 0px;
+    }
+    50% {
+        background-position-x: 0px;
+    }
+    50.001% {
+        background-position-x: -550px;
+    }
+    100% {
+        background-position-x: -550px;
+    }
+}
+
+@-webkit-keyframes characterHealthRender {
+    0% {
+        width: 0px
+    }
+    10% {
+        width: 25px;
+    }
+    20% {
+        width: 50px;
+    }
+    30% {
+        width: 75px
+    }
+    40% {
+        width: 100px
+    }
+    50% {
+        width: 125px
+    }
+    60% {
+        width: 150px
+    }
+    70% {
+        width: 175px
+    }
+    80% {
+        width: 200px
+    }
+    90% {
+        width: 225px
+    }
+    100% {
+        width: 250px
+    }
+}

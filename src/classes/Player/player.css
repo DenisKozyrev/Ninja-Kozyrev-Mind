@@ -1,0 +1,62 @@
+.player-idle-animation {
+    position: absolute;
+    left: -10%;
+    background-repeat: no-repeat;
+    bottom: -8%;
+    transform: scale(0.65);
+    -webkit-animation-name: characterIdle;
+    -webkit-animation-duration: 430ms;
+    animation-iteration-count: infinite;
+    background-position-y: -100px;
+}
+
+.player-attack-animation {
+    background-position-y: -75px;
+    position: absolute;
+    left: -8%;
+    background-repeat: no-repeat;
+    bottom: -10%;
+    transform: scale(0.65);
+    background-repeat: no-repeat;
+    -webkit-animation-name: playerAttack;
+    -webkit-animation-duration: 1500ms;
+}
+
+.player-dead-animation {
+    position: absolute;
+    left: -5;
+    background-repeat: no-repeat;
+    bottom: -10%;
+    transform: scale(0.65);
+    -webkit-animation-name: characterDead;
+    -webkit-animation-duration: 1000ms;
+    background-position-y: -40px;
+}
+
+.player-damage-animation {
+    position: absolute;
+    left: -10%;
+    background-repeat: no-repeat;
+    bottom: -13%;
+    transform: scale(0.65);
+    -webkit-animation-name: playerDamage;
+    -webkit-animation-duration: 200ms;
+    background-position-y: -50px;
+}
+
+.player-health-animation {
+    position: absolute;
+    left: -10%;
+    background-repeat: no-repeat;
+    bottom: -5%;
+    transform: scale(0.65);
+    -webkit-animation-name: characterHealth;
+    -webkit-animation-duration: 500ms;
+    animation-iteration-count: 3;
+    background-position-y: -100px;
+}
+
+.character-health-render {
+    animation-name: characterHealthRender;
+    animation-duration: 1000ms;
+}

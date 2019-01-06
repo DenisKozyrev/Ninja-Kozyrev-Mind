@@ -1,0 +1,5 @@
+export default {
+    FIRSTBACKGROUND: 1,
+    LASTBACKGROUND: 4,
+    NEXTBACKGROUND: 1
+}

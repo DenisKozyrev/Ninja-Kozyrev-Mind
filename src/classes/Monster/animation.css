@@ -1,0 +1,384 @@
+@-webkit-keyframes characterIdle {
+    0.001% {
+        background-position-x: 0px;
+    }
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4400px;
+    }
+    99.999% {
+        background-position-x: -4400px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+@-webkit-keyframes monsterAttack {
+    0% {
+        background-position-x: 0px;
+    }
+    0.001% {
+        background-position-x: -550px;
+        right: 4%;
+    }
+    5% {
+        background-position-x: -550px;
+    }
+    5.001% {
+        background-position-x: -1100px;
+        right: 8%
+    }
+    10% {
+        background-position-x: -1100px;
+    }
+    10.001% {
+        background-position-x: -1650px;
+        right: 12%
+    }
+    15% {
+        background-position-x: -1650px;
+    }
+    15.001% {
+        background-position-x: -2200px;
+        right: 16%
+    }
+    20% {
+        background-position-x: -2200px;
+    }
+    20.001% {
+        background-position-x: -2750px;
+        right: 20%
+    }
+    25% {
+        background-position-x: -2750px;
+    }
+    25.001% {
+        background-position-x: -3300px;
+        right: 24%
+    }
+    30% {
+        background-position-x: -3300px;
+    }
+    30.001% {
+        background-position-x: -3850px;
+        right: 28%
+    }
+    35% {
+        background-position-x: -3850px;
+    }
+    35.001% {
+        background-position-x: -4400px;
+        right: 32%
+    }
+    40% {
+        background-position-x: -4400px;
+    }
+    40.001% {
+        background-position-x: -4950px;
+        right: 36%
+    }
+    45% {
+        background-position-x: -4950px;
+    }
+    45.001% {
+        background-position-x: -5500px;
+        right: 40%
+    }
+    50% {
+        background-position-x: -5500px;
+    }
+    50.001% {
+        background-position-x: -6050px;
+        right: 42%
+    }
+    55% {
+        background-position-x: -6050px;
+    }
+    55.001% {
+        background-position-x: -6600px;
+        right: 44%
+    }
+    60% {
+        background-position-x: -6600px;
+    }
+    60.001% {
+        background-position-x: -7150px;
+        right: 46%
+    }
+    65% {
+        background-position-x: -7150px;
+    }
+    65.001% {
+        background-position-x: -7700px;
+        right: 48%
+    }
+    70% {
+        background-position-x: -7700px;
+    }
+    70.001% {
+        background-position-x: -8250px;
+        right: 50%
+    }
+    75% {
+        background-position-x: -8250px;
+    }
+    75.001% {
+        background-position-x: -8800px;
+        right: 52%
+    }
+    80% {
+        background-position-x: -8800px;
+    }
+    80.001% {
+        background-position-x: -9350px;
+        right: 55%
+    }
+    85% {
+        background-position-x: -9350px;
+    }
+    85.001% {
+        background-position-x: -9900px;
+        right: 55%
+    }
+    90% {
+        background-position-x: -9900px;
+        right: 55%
+    }
+    90.001% {
+        background-position-x: -10450px;
+        right: 55%
+    }
+    95% {
+        background-position-x: -10450px;
+        right: 55%
+    }
+    95.001% {
+        background-position-x: -10450px;
+        right: 55%
+    }
+    99.999% {
+        background-position-x: -10450px;
+    }
+    100% {
+        background-position-x: -10450px;
+    }
+}
+
+@-webkit-keyframes characterDead {
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4400px;
+    }
+    99.999% {
+        background-position-x: -4400px;
+    }
+    100% {
+        background-position-x: -4400px;
+    }
+}
+
+@-webkit-keyframes characterHealth {
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4400px;
+    }
+    99.999% {
+        background-position-x: -4400px;
+    }
+    100% {
+        background-position-x: -4400px;
+    }
+}
+
+@-webkit-keyframes monsterDamage {
+    0% {
+        background-position-x: 0px;
+    }
+    50% {
+        background-position-x: 0px;
+    }
+    50.001% {
+        background-position-x: -550px;
+    }
+    100% {
+        background-position-x: -550px;
+    }
+}
+
+@-webkit-keyframes characterHealthRender {
+    0% {
+        width: 0px
+    }
+    10% {
+        width: 25px;
+    }
+    20% {
+        width: 50px;
+    }
+    30% {
+        width: 75px
+    }
+    40% {
+        width: 100px
+    }
+    50% {
+        width: 125px
+    }
+    60% {
+        width: 150px
+    }
+    70% {
+        width: 175px
+    }
+    80% {
+        width: 200px
+    }
+    90% {
+        width: 225px
+    }
+    100% {
+        width: 250px
+    }
+}

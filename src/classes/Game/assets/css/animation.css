@@ -1,0 +1,62 @@
+@-webkit-keyframes loadingAnimation {
+    0.001% {
+        background-position-x: 0px;
+    }
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: 0px;
+    }
+    10.001% {
+        background-position-x: -550px;
+    }
+    20% {
+        background-position-x: -550px;
+    }
+    20.001% {
+        background-position-x: -1100px;
+    }
+    30% {
+        background-position-x: -1100px;
+    }
+    30.001% {
+        background-position-x: -1650px;
+    }
+    40% {
+        background-position-x: -1650px;
+    }
+    40.001% {
+        background-position-x: -2200px;
+    }
+    50% {
+        background-position-x: -2200px;
+    }
+    50.001% {
+        background-position-x: -2750px;
+    }
+    60% {
+        background-position-x: -2750px;
+    }
+    60.001% {
+        background-position-x: -3300px;
+    }
+    70% {
+        background-position-x: -3300px;
+    }
+    70.001% {
+        background-position-x: -3850px;
+    }
+    80% {
+        background-position-x: -3850px;
+    }
+    80.001% {
+        background-position-x: -4403px;
+    }
+    99.999% {
+        background-position-x: -4403px;
+    }
+    100% {
+        background-position-x: -4403px;
+    }
+}

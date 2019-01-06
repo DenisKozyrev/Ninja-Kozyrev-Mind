@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Montresor";
+    src: url(../../../../assets/fonts/Montresor.ttf);
+}
+
+@font-face {
+    font-family: "Beyond";
+    src: url(../../../../assets/fonts/BeyondWonderland.ttf);
+}
+
+.loading-animation {
+    background-repeat: no-repeat;
+    transform: scale(0.65);
+    -webkit-animation-name: loadingAnimation;
+    -webkit-animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+.loading-page {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(108, 130, 70);
+    position: fixed;
+    z-index: 1;
+}
+
+.loading-sprite {
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../images/loadingSprite.png);
+}
+
+.content-wrapper {
+    user-select: none;
+    width: 100vw;
+    min-height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/landingPageBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-page {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-heading {
+    color: #ffd890;
+    margin-bottom: 25px;
+    font-family: Montresor;
+    background-image: url(../images/ninjaLogo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    user-select: none;
+    font-size: 100px;
+    padding-top: 200px;
+}
+
+.checkin-block {
+    display: none;
+}
+
+.new-game-buttons-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.checkin-paragraph {
+    color: #ffd890;
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-family: Montresor;
+}
+
+.profile-input-box {
+    margin-bottom: 30px;
+}
+
+.profile-input {
+    margin-top: 10px;
+    min-width: 200px;
+    min-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgb(75, 30, 158);
+}
+
+.profile-label {
+    color: #ffd890;
+    font-size: 25px;
+}
+
+.game-button {
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 55px;
+    padding: 10px 15px;
+    background-color: rgba(90, 90, 90, 0.5);
+    border: 0;
+    outline-color: #ffd890;
+    color: #ffd890;
+    cursor: pointer;
+    user-select: none;
+    font-family: Montresor;
+    letter-spacing: 2px;
+}
+
+.game-button:hover {
+    color: #ffb732;
+}
+
+.game-button:active {
+    transform: translateY(4px);
+}
+
+.new-game-link {
+    color: #ffd890;
+    text-decoration: none;
+    outline: none;
+}
+
+.game-fild {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.game-fild-content {
+    height: 100%;
+    width: 90%;
+}
+
+.character-info-block {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    justify-content: space-between;
+}
+
+.character-info {
+    padding-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-name {
+    font-family: Montresor;
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 1px;
+    background-color: rgba(178, 177, 177, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.rounds {
+    position: relative;
+    text-align: center;
+    margin-left: 6.5%;
+}
+
+.volume-on {
+    background-image: url(../icons/volume-icon.png);
+    background-size: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-color: rgba(90, 90, 90, 0);
+    border: 0;
+    height: 30px;
+    cursor: pointer;
+    color: #ffd890;
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+
+.volume-on:hover {
+    background-image: url(../icons/volume-icon-hover.png);
+}
+
+.volume-off {
+    background-image: url(../icons/mute-icon.png);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.volume-off:hover {
+    background-image: url(../icons/mute-icon-hover.png);
+}
+
+.round-number {
+    font-family: Montresor;
+    font-size: 35px;
+    color: #000;
+    margin: 17% 0;
+}
+
+.character-health-points {
+    font-family: Montresor;
+    margin: 15px 0;
+    font-size: 35px;
+    color: #000;
+}
+
+.hp-green-line {
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #0ca40c;
+    margin-top: 0;
+}
+
+.monster-hp-red-line {
+    height: 25px;
+    justify-content: flex-end;
+    display: flex;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #c40000;
+}
+
+.player-hp-red-line {
+    height: 25px;
+    justify-content: flex-start;
+    display: flex;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #c40000;
+}
+
+.character-block {
+    height: 55%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.character {
+    width: 550px;
+    height: 500px;
+}
